@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Slab&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.board{
+    height: 80%;
+    width: 90%;
+  border-radius:10px ;
+  overflow: hidden;
+    background-color: rgb(223, 202, 176);
+}
+
+/* top part of the board */
+.board .top{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(174, 158, 68);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px
+
+}
+.top .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px
+
+}
+
+.info .box{
+    height: 33px;
+    width: 33px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 650;
+    color:rgb(159, 108, 41);
+    padding: 9px;
+
+}
+.info h2{
+        color:white;
+        font-size: 20px;
+}
+
+/* bottompart of the board */
+
+.bottom{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+
+    flex-wrap:wrap;
+    gap:15px;
+    
+    height: calc(100% - 100px);
+    width: 100%;
+    /* background-color: red; */
+}
+#bubble{
+    margin:8px 8px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 30px;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+
+}
+
+#bubble:hover{
+    background-color: rgb(165, 136, 99);
+    color:white;
+    cursor: pointer;
+}
+
