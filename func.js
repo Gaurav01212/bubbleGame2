@@ -16,7 +16,7 @@ function makeBubble(){
 
 
  function runTimmer(){
-    var time=3;
+    var time=61;
 
     var timerint=setInterval(function(){
 
